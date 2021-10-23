@@ -17,6 +17,9 @@ Simply run:
 > yarn start
 ```
 
+Mongoose will try to connect with **"localhost:27017/typegraphql"** mongodb database.  
+**Adjust inside "src/infra/database/mongoose/connection.ts"** If yours is different.
+
 Server will be listening in the **port 4100**, in which you can access the Apollo Playground
 __make sure that this port is available__\
 
